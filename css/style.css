@@ -14,6 +14,11 @@ body {
   font-size: 14px;
   font-style: normal;
 }
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 .section {
   padding: 94px 0;
 }
@@ -21,6 +26,7 @@ body {
   width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
+  outline: 1px solid tomato;
 }
 /* Header */
 header {
@@ -113,15 +119,15 @@ header .logo {
 .hero-btn:focus {
   background: var(--btn-hover);
 }
-/* Skills */
-.skills-title {
+/* Features */
+.title-features {
   font-weight: bold;
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.skills-text {
+.discription-features {
   color: var(--sec-color);
   font-weight: normal;
   font-size: 14px;
