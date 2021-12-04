@@ -170,8 +170,9 @@ header .logo {
 }
 /* OurTeam */
 .our-team-container {
-  margin: 94px auto;
+  margin-bottom: 8px;
   padding-top: 94px;
+  padding-bottom: 86px;
 }
 .title-team {
   margin-bottom: 50px;
