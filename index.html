@@ -16,7 +16,7 @@
   </head>
   <body>
     <header>
-      <div class="container">
+      <div class="container header-container">
         <nav class="nav">
           <a lang="en" href="./index.html" class="logo"
             >Web<span class="color-black">Studio</span></a
@@ -50,21 +50,21 @@
                 Идейные соображения, а также начало повседневной работы по формированию позиции.
               </p>
             </li>
-            <li>
-              <h3 class="skills-title">Пунктуальность</h3>
-              <p class="skills-text">
+            <li class="features-item">
+              <h3 class="title-features">Пунктуальность</h3>
+              <p class="discription-features">
                 Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
               </p>
             </li>
-            <li>
-              <h3 class="skills-title">Планирование</h3>
-              <p class="skills-text">
+            <li class="features-item">
+              <h3 class="title-features">Планирование</h3>
+              <p class="discription-features">
                 Равным образом консультация с широким активом в значительной степени обуславливает.
               </p>
             </li>
-            <li>
-              <h3 class="skills-title">Современные технологии</h3>
-              <p class="skills-text">
+            <li class="features-item">
+              <h3 class="title-features">Современные технологии</h3>
+              <p class="discription-features">
                 Значимость этих проблем настолько очевидна, что реализация плановых заданий.
               </p>
             </li>
@@ -73,59 +73,77 @@
       </section>
       <!-- AboutUs -->
       <section>
-        <h2 class="about-title">Чем мы занимаемся</h2>
         <div class="container">
-          <ul>
-            <li><img src="./images/box_1.jpg" alt="руки печатают" width="370" height="294" /></li>
-            <li><img src="./images/box_2.jpg" alt="телефон" width="370" height="294" /></li>
-            <li><img src="./images/box_3.jpg" alt="планшет" width="370" height="294" /></li>
+          <h2 class="about-title">Чем мы занимаемся</h2>
+          <ul class="about-img-list">
+            <li class="about-list-item">
+              <img src="./images/box_1.jpg" alt="руки печатают" width="370" height="294" />
+            </li>
+            <li class="about-list-item">
+              <img src="./images/box_2.jpg" alt="телефон" width="370" height="294" />
+            </li>
+            <li class="about-list-item">
+              <img src="./images/box_3.jpg" alt="планшет" width="370" height="294" />
+            </li>
           </ul>
         </div>
       </section>
       <!-- OurTeam -->
       <section>
-        <h2 class="team-title">Наша команда</h2>
-        <div class="container">
-          <ul>
-            <li>
+        <div class="container our-team-container">
+          <h2 class="title-team">Наша команда</h2>
+          <ul class="list list-team">
+            <li class="team-card">
               <img src="./images/team_1.jpg" alt="дизайнер продукта" width="270" height="260" />
-              <h3 class="team-mate">Игорь Демьяненко</h3>
-              <p lang="en" class="team-position">Product Designer</p>
+              <div class="description-card">
+                <h3 class="team-mate">Игорь Демьяненко</h3>
+                <p lang="en" class="team-position">Product Designer</p>
+              </div>
             </li>
-            <li>
+            <li class="team-card">
               <img src="./images/team_2.jpg" alt="фронтенд разработчик" width="270" height="260" />
-              <h3 class="team-mate">Ольга Репина</h3>
-              <p lang="en" class="team-position">Frontend Developer</p>
+              <div class="description-card">
+                <h3 class="team-mate">Ольга Репина</h3>
+                <p lang="en" class="team-position">Frontend Developer</p>
+              </div>
             </li>
-            <li>
+            <li class="team-card">
               <img src="./images/team_3.jpg" alt="маркетолог" width="270" height="260" />
-              <h3 class="team-mate">Николай Тарасов</h3>
-              <p lang="en" class="team-position">Marketing</p>
+              <div class="description-card">
+                <h3 class="team-mate">Николай Тарасов</h3>
+                <p lang="en" class="team-position">Marketing</p>
+              </div>
             </li>
-            <li>
+            <li class="team-card">
               <img src="./images/team_4.jpg" alt="дизайнер интерфейса" width="270" height="260" />
-              <h3 class="team-mate">Михаил Ермаков</h3>
-              <p lang="en" class="team-position">UI Designer</p>
+              <div class="description-card">
+                <h3 class="team-mate">Михаил Ермаков</h3>
+                <p lang="en" class="team-position">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
       </section>
     </main>
     <footer>
-      <div class="container">
+      <div class="container foot-container">
         <a lang="en" href="./index.html" class="logo"
           >Web<span class="color-logo-footer">Studio</span></a
         >
         <ul class="footer">
-          <li>
+          <li class="footer-item">
             <address>
-              <a href="https://goo.gl/maps/8ebgqSX6K33a8LGr6">г. Киев, пр-т Леси Украинки, 26</a>
+              <a class="foot-adress" href="https://goo.gl/maps/8ebgqSX6K33a8LGr6"
+                >г. Киев, пр-т Леси Украинки, 26</a
+              >
             </address>
           </li>
-          <li class="footer-contacts">
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <li class="footer-item">
+            <a class="foot-contacts" href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
-          <li class="footer-contacts"><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+          <li class="footer-item">
+            <a class="foot-contacts" href="tel:+380961111111">+38 096 111 11 11</a>
+          </li>
         </ul>
       </div>
     </footer>

@@ -40,6 +40,9 @@ header .container {
   display: flex;
   justify-content: space-between;
 }
+.header-container {
+  margin-bottom: 56px;
+}
 header .logo {
   margin-right: 93px;
   display: flex;
@@ -120,7 +123,21 @@ header .logo {
   background: var(--btn-hover);
 }
 /* Features */
+.features-container {
+  margin: 38px auto;
+}
+.features-list {
+  display: flex;
+  justify-content: space-between;
+}
+.features-item {
+  width: 270px;
+}
+.features-list .features-item + .features-item {
+  margin-left: 30px;
+}
 .title-features {
+  margin-bottom: 10px;
   font-weight: bold;
   font-size: 14px;
   line-height: calc(16 / 14);
@@ -136,23 +153,59 @@ header .logo {
 }
 /* AboutUs */
 .about-title {
+  text-align: center;
+  margin-bottom: 50px;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: calc(42 / 36);
   text-align: center;
   letter-spacing: 0.03em;
+}
+.about-img-list {
+  display: flex;
+}
+.about-img-list .about-list-item + .about-list-item {
+  margin-left: 30px;
 }
 /* OurTeam */
-.team-title {
+.our-team-container {
+  margin: 94px auto;
+  padding-top: 94px;
+}
+.title-team {
+  margin-bottom: 50px;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: calc(42 / 36);
   text-align: center;
   letter-spacing: 0.03em;
+  /* outline: 3px solid green; */
+}
+.list-team {
+  display: flex;
+  flex-wrap: wrap;
+  /* outline: 3px solid purple; */
+}
+.list-team .team-card + .team-card {
+  margin-left: 30px;
+}
+.team-card {
+  width: 270px;
+  /* outline: 3px solid red; */
+  border-bottom: ;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.description-card {
+  padding: 30px 15px;
+  text-align: center;
+  /* outline: 3px solid blue; */
 }
 .team-mate {
+  margin-bottom: 10px;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -170,10 +223,15 @@ header .logo {
   letter-spacing: 0.03em;
 }
 /* Footer */
+.foot-container {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 footer .logo {
-  margin-right: 93px;
-  display: flex;
-  align-items: center;
+  display: block;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 20px;
   font-family: var(--logo-font);
   font-weight: bold;
   font-size: 26px;
@@ -197,6 +255,9 @@ footer a {
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
   color: var(--white-color);
+}
+.footer-item:not(:last-child) {
+  margin-bottom: 9px;
 }
 /* portfolio page */
 .btn-filter {
