@@ -7,6 +7,7 @@
   --white-color: #fff;
   --btn-hover: #188ce8;
   --hero-color: #2f303a;
+  --team-bg: #f5f4fa;
 }
 body {
   font-family: var(--main-font);
@@ -173,6 +174,7 @@ header .logo {
   margin-bottom: 8px;
   padding-top: 94px;
   padding-bottom: 86px;
+  background: var(--team-bg);
 }
 .title-team {
   margin-bottom: 50px;
