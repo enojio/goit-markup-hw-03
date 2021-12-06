@@ -8,6 +8,7 @@
   --btn-hover: #188ce8;
   --hero-color: #2f303a;
   --team-bg: #f5f4fa;
+  --footer-cont: rgba(255, 255, 255, 0,6);
 }
 body {
   font-family: var(--main-font);
@@ -33,16 +34,12 @@ body {
 header {
   border-bottom: 1px solid #ececec;
 }
-
 .nav,
 .links,
 .contacts,
 header .container {
   display: flex;
   justify-content: space-between;
-}
-.header-container {
-  margin-bottom: 56px;
 }
 header .logo {
   margin-right: 93px;
@@ -55,9 +52,6 @@ header .logo {
   letter-spacing: 0.03em;
   color: var(--active-color);
 }
-
-.logo span {
-  /* margin-left: 5px; */
 }
 .color-black {
   color: var(--main-color);
@@ -124,8 +118,8 @@ header .logo {
   background: var(--btn-hover);
 }
 /* Features */
-.features-container {
-  margin: 38px auto;
+.feature-section {
+  padding-top: 94px;
 }
 .features-list {
   display: flex;
@@ -171,10 +165,7 @@ header .logo {
 }
 /* OurTeam */
 .our-team-container {
-  margin-bottom: 8px;
-  padding-top: 94px;
-  padding-bottom: 86px;
-  background: var(--team-bg);
+  padding-bottom: 94px;
 }
 .title-team {
   margin-bottom: 50px;
@@ -184,20 +175,21 @@ header .logo {
   line-height: calc(42 / 36);
   text-align: center;
   letter-spacing: 0.03em;
-  /* outline: 3px solid green; */
 }
 .list-team {
   display: flex;
   flex-wrap: wrap;
-  /* outline: 3px solid purple; */
 }
 .list-team .team-card + .team-card {
   margin-left: 30px;
 }
+.our-team-section {
+  background: var(--team-bg);
+  padding-top: 94px;
+}
 .team-card {
   width: 270px;
-  /* outline: 3px solid red; */
-  border-bottom: ;
+  background: var(--white-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -205,7 +197,6 @@ header .logo {
 .description-card {
   padding: 30px 15px;
   text-align: center;
-  /* outline: 3px solid blue; */
 }
 .team-mate {
   margin-bottom: 10px;
@@ -226,9 +217,10 @@ header .logo {
   letter-spacing: 0.03em;
 }
 /* Footer */
-.foot-container {
+footer {
   padding-top: 60px;
   padding-bottom: 60px;
+  background: var(--hero-color);
 }
 footer .logo {
   display: block;
@@ -245,11 +237,8 @@ footer .logo {
 .color-logo-footer {
   color: var(--white-color);
 }
-footer {
-  background: var(--hero-color);
-}
 footer a {
-  color: var(--sec-color);
+  color: var(--footer-con);
 }
 .footer li:first-child a {
   font-style: normal;
@@ -271,6 +260,7 @@ footer a {
   display: flex;
   justify-content: center;
   margin: 0 auto;
+  padding-bottom: 50px;
 }
 .btn-item {
   margin-right: 8px;
@@ -295,7 +285,6 @@ footer a {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 34px;
 }
 .portfolio-item {
   width: 370px;
