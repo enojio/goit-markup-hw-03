@@ -164,8 +164,8 @@ header .logo {
   margin-left: 30px;
 }
 /* OurTeam */
-.our-team-container {
-  padding-bottom: 94px;
+.team-section {
+  background: var(--team-bg);
 }
 .title-team {
   margin-bottom: 50px;
@@ -182,10 +182,6 @@ header .logo {
 }
 .list-team .team-card + .team-card {
   margin-left: 30px;
-}
-.our-team-section {
-  background: var(--team-bg);
-  padding-top: 94px;
 }
 .team-card {
   width: 270px;
@@ -238,7 +234,7 @@ footer .logo {
   color: var(--white-color);
 }
 footer a {
-  color: var(--footer-con);
+  color: var(--footer-cont);
 }
 .footer li:first-child a {
   font-style: normal;
