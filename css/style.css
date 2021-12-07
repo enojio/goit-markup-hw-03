@@ -8,7 +8,7 @@
   --btn-hover: #188ce8;
   --hero-color: #2f303a;
   --team-bg: #f5f4fa;
-  --footer-cont: rgba(255, 255, 255, 0, 6);
+  --footer-cont: rgba(255, 255, 255, 0.6);
 }
 body {
   font-family: var(--main-font);
